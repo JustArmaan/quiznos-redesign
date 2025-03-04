@@ -1,9 +1,5 @@
-import Navbar from "./component/navigation";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-    return (
-        <div>
-            <Navbar />
-        </div>
-    );
+    redirect("/Rewards");
 }
