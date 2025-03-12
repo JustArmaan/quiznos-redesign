@@ -142,10 +142,10 @@ export default function Promotions() {
                                     <p>{offer.description}</p>
                                 </CardContent>
                                 <CardFooter className="flex justify-between">
-                                    <div className="font-mono bg-gray-100 px-3 py-1 rounded">
+                                    <div className="font-mono bg-gray-100 px-3 py-1 rounded ">
                                         {offer.code}
                                     </div>
-                                    <Button className="bg-[#E85D0C]">
+                                    <Button className="bg-[#E85D0C] ">
                                         Redeem Now
                                     </Button>
                                 </CardFooter>
@@ -180,7 +180,7 @@ export default function Promotions() {
                                         <p>{item.content}</p>
                                     </CardContent>
                                     <CardFooter>
-                                        <Button className="bg-[#E85D0C]">
+                                        <Button className="bg-[#E85D0C] mt-4">
                                             Read More
                                         </Button>
                                     </CardFooter>
