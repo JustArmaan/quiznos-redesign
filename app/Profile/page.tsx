@@ -50,7 +50,7 @@ export default function Profile() {
     return (
         <div className=" bg-[#AFFF00]">
             <div className="max-w-md mx-auto bg-white shadow-md overflow-hidden">
-                <div className="p-6 text-center bg-[#E85D0C] text-white">
+                <div className="p-3 text-center bg-[#E85D0C] text-white">
                     <div className="flex justify-end mb-3">
                         <button
                             onClick={toggleLanguage}
@@ -70,7 +70,7 @@ export default function Profile() {
                     <h2 className="text-lg font-bold">{userData.name}</h2>
                 </div>
 
-                <div className="p-6 space-y-2">
+                <div className="p-4 space-y-2">
                     <div>
                         <label className="block text-gray-700 font-bold text-sm mb-2">
                             {language === "en"

@@ -11,10 +11,26 @@ export const Navbar = () => {
             <div className="flex justify-center">
                 <ul className="flex gap-x-10 text-white">
                     {[
-                        { name: "ORDER", href: "/Order", icon: "/order.png" },
-                        { name: "REWARDS", href: "/Rewards",icon: "/order.png" },
-                        { name: "PROMOTION", href: "/Promotions", icon: "/order.png"},
-                        { name: "PROFILE", href: "/Profile", icon: "/order.png"},
+                        {
+                            name: "ORDER",
+                            href: "/Order",
+                            icon: "/sandwich.svg",
+                        },
+                        {
+                            name: "REWARDS",
+                            href: "/Rewards",
+                            icon: "/rewards.svg",
+                        },
+                        {
+                            name: "PROMOTION",
+                            href: "/Promotions",
+                            icon: "/promotion.svg",
+                        },
+                        {
+                            name: "PROFILE",
+                            href: "/Profile",
+                            icon: "/userProfile.svg",
+                        },
                     ].map((item) => (
                         <li key={item.name}>
                             <Link
