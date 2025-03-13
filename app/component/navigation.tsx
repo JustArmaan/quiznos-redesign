@@ -9,7 +9,7 @@ export const Navbar = () => {
     return (
         <div className="fixed bottom-0 w-full bg-black py-3">
             <div className="flex justify-center">
-                <ul className="flex gap-x-10 text-white">
+                <ul className="flex gap-x-5 text-white">
                     {[
                         {
                             name: "ORDER",
