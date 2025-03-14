@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quiznos App Redesign
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is a redesigned version of the Quiznos app, built using Next.js. The redesign focuses on improving user experience, clarity, and navigation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Improvements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Renamed "Promotions" to "Deals & Offers": This change makes it clear that the section includes coupons and discounts.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Updated "More" to "Account" or "Settings & Profile": This improves clarity and prevents confusion for users looking for profile-related settings.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Consistent Back Button Placement: Ensures smooth and predictable navigation throughout the app.
 
-## Learn More
+Relocated "Need Help" to Profile Section: Instead of removing it entirely, moving it to the profile section makes it easily accessible.
 
-To learn more about Next.js, take a look at the following resources:
+Enhanced "Scan QR Code" Button Visibility: Making this button more prominent ensures users can quickly find and use it.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- React
+- Tailwind CSS
+- Shadcn
 
-## Deploy on Vercel
+# Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Clone the repository
+```git clone https://github.com/your-repo/quiznos-redesign.git```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Navigate to the project directory
+```cd quiznos-redesign```
+
+## Install dependencies
+```npm install```
+
+## Run the development server
+```npm run dev```
+
+Open http://localhost:3000 in your browser.
